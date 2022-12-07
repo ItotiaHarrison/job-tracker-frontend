@@ -14,7 +14,7 @@ function Login({ onLogin }) {
           <LoginForm onLogin={onLogin} />
           <Divider />
 
-          <p id="loginContainer">
+          <p id="redirects">
             Don't have an account? &nbsp;
             <button onClick={() => setShowLogin(false)}>
               Sign Up
@@ -27,7 +27,7 @@ function Login({ onLogin }) {
           <SignUpForm onLogin={onLogin} />
           <Divider />
 
-          <p id="loginContainer">
+          <p id="redirects">
             Already have an account? &nbsp;
             <button onClick={() => setShowLogin(true)}>
               Sign In

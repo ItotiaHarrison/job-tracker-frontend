@@ -159,4 +159,10 @@ a, button {
         top: 1rem;
         width: 70%;
     }
+
+    #redirects {
+        width: 50%;
+        margin: auto;
+        
+    }
 }
