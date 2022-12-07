@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Error, FormField } from "../styles";
 
 
-export default function Login(onLogin) {
+export default function LoginForm({onLogin}) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [errors, setErrors] = useState([]);

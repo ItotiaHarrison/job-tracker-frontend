@@ -22,7 +22,7 @@ function App() {
     <div className="App">
       <NavBar user={user} setUser={setUser} />
       <Routes>
-        <Route path="/" element={<Login />} />
+        {/* <Route path="/" element={<Dashboard />} /> */}
       </Routes>
     </div>
   );
