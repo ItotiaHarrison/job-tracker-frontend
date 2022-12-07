@@ -1,8 +1,9 @@
 ## About The Project
 This is a front-end implementation of a Job application site. It is a complete front-end site with four pages: 
-- The login and logout page 
-- A dashboard page 
-- Wishlist
+- The login and sign in page 
+- Users profile.
+- A dashboard page. 
+- Jobs page.
 - 
 
 The significance of this project is:
