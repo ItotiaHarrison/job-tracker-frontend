@@ -1,0 +1,162 @@
+/* .App{
+    text-align: center;
+} */
+
+*{
+    box-sizing: border-box;
+}
+a, button {
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #loginContainer{
+        background-color: #F8FAFC;
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        box-sizing: border-box;
+    }
+    
+    #loginModal {
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        left: 25%;
+        top: 25%;
+        background: #FFFFFF;
+        box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.05);
+        border-radius: 4px;
+    }
+    
+    #loginModal .smallText {
+        width: 70%;
+        height: 18px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.9rem;
+        display: flex;
+        align-items: center;
+        color: #757575;
+        padding: 0.1rem;
+    }
+    
+    #loginModal p {
+        text-align: center;
+        font-weight: 700;
+        font-size: 1.5rem;
+        color: black;
+    }
+    
+    #loginModal input, button {
+        border: 1px solid #DEDEDE;
+        border-radius: 0.3rem;
+        width: 80%;
+        height: 2rem;
+        position: relative;
+        left: 8%;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    
+    }
+    
+    #loginModal button {
+        background-color: #2c19e6;
+        display: block;
+        color: #D3E619;
+        font-size: 1.1rem;
+        height: 2.5rem;
+    }
+    .forgotPassword, .signUpLink{
+        width: 50%;
+        margin: auto;
+        font-size: 0.9rem;
+        color: #757575;
+        padding: 0.1rem;
+        display: block;
+        text-align: center;
+    }
+    .signUpLink {
+        position:relative;
+        top: 1rem;
+        width: 80%;
+    }
+}
+
+
+/* -------------------Medium screen--------------------- */
+
+@media only screen and (min-width: 600px) {
+    #loginContainer{
+        background-color: #F8FAFC;
+        width: 100vw;
+        height: 80vh;
+        position: relative;
+        box-sizing: border-box;
+    }
+    
+    #loginModal {
+        position: absolute;
+        margin: 50px 300px;
+        width: 30%;
+        height: 50%;
+        inset: 0;
+        background: #FFFFFF;
+        box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.05);
+        border-radius: 4px;
+    }
+    
+    #loginModal .smallText {
+        width: 70%;
+        height: 18px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.9rem;
+        display: flex;
+        align-items: center;
+        color: #757575;
+        padding: 0.1rem;
+    }
+    
+    #loginModal p {
+        text-align: center;
+        font-weight: 700;
+        font-size: 1.5rem;
+        color: black;
+    }
+    
+    #loginModal input, button {
+        border: 1px solid #DEDEDE;
+        border-radius: 0.3rem;
+        width: 80%;
+        height: 2rem;
+        position: relative;
+        left: 8%;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    
+    }
+    
+    #loginModal button {
+        background-color: #2c19e6;
+        display: block;
+        color: #D3E619;
+        font-size: 1.1rem;
+        height: 2.5rem;
+    }
+    .forgotPassword, .signUpLink{
+        width: 50%;
+        margin: auto;
+        font-size: 0.9rem;
+        color: #757575;
+        padding: 0.1rem;
+        display: block;
+        text-align: center;
+    }
+    .signUpLink {
+        position:relative;
+        top: 1rem;
+        width: 70%;
+    }
+}
